@@ -29,7 +29,7 @@ a{
 div.container{
     /* background-color: grey; */
     display: flex;
-    padding: 10px;
+    padding: 20px 0 0 0 ;
 }
 
 div.flex1{
@@ -46,12 +46,59 @@ nav.container{
     display: flex;
     align-content:space-between;
 }
-a.header-links{
+a.header-links,div.hero-subheading{
     text-decoration: none;
     flex: 1;
     font-size: 18px;
-    font-weight:200;
+    font-weight:300;
     color: #E5E7EB;
 }
 
 /* Hero section */
+
+div.row-container{
+    display: flex;
+    align-items:normal;
+    align-content:flex-start;
+    padding: 5% 0 5% 0;
+    height: 250px;
+}
+
+div.column1,div.column2{
+    flex: 1;
+}
+
+div.column1{
+    display:flex;
+    /* background-color: green; */
+    flex-direction: column;
+    align-items:flex-start;
+    margin-right: 10%;
+}
+div.hero-heading,div.hero-subheading,div.hero-button{
+    flex: 1;
+    padding: 5px;
+}
+
+div.hero-heading{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+button.hero-button{
+    font-size: 14px;
+    font-weight:600;
+    color: #E5E7EB;
+    padding: 5px 15px;
+    background-color: #3882F6;
+    border-radius:10%;
+    border-style:none;
+}
+
+div.column2{
+    flex: 1;
+    display: flex;
+    background-color: grey;
+    /* flex-direction: column; */
+    align-items: center;
+}
