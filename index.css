@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#main-container,#main-container2{
+#main-container,#main-container2,#main-container3{
     padding: 0 15% 0 15%;
     font-family: "Roboto", sans-serif;
 }
@@ -17,6 +17,13 @@
     background-color: white;
     color: #1F2937;
     
+}
+
+#main-container3 {
+    padding: 0 25% 0 25%;
+    background-color: #e5e7e5;
+    color: #1F2937;
+
 }
 
 /* .roboto-<uniquifier> {
@@ -149,4 +156,12 @@ div.row2{
 div.image-with-caption{
     width: 150px;
     margin:20px;
+}
+
+/* testimonial section */
+div.testimonial{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 }
