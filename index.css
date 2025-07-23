@@ -20,7 +20,7 @@
 }
 
 #main-container3 {
-    padding: 0 25% 0 25%;
+    padding: 5% 25% 5% 25%;
     background-color: #e5e7e5;
     color: #1F2937;
 
@@ -72,7 +72,7 @@ a.header-links,div.hero-subheading{
 
 /* Hero section */
 
-div.row-container{
+div.row-container,div.signup-row-container{
     display: flex;
     align-items:normal;
     align-content:flex-start;
@@ -107,7 +107,7 @@ button.hero-button{
     color: #E5E7EB;
     padding: 5px 15px;
     background-color: #3882F6;
-    border-radius:10%;
+    border-radius:10px;
     border-style:none;
 }
 
@@ -165,3 +165,40 @@ div.testimonial{
     font-weight: 300;
     font-style: italic;
 }
+
+/* sign up section */
+div.signup-row-container{
+    margin: 100px 0px;
+    height: 50px;
+    flex: 1;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 30px;
+    border-style: solid;
+}
+
+div.signup-button, div.signup-column-container{
+    margin: auto;
+}
+
+div.call-to-action{
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+div.call-to-action-subsection{
+    font-size: 14px;
+    font-weight:300;
+}
+
+
+button.signup-button{
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px 20px;
+    border-color: white;
+    color: white;
+}
+
