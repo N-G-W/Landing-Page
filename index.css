@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main-container{
+    padding: 0 15% 0 15%;
+    background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+/* .roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+} */
+a{
+    color: white;
+}
+/* div#test{
+    background-color: grey;
+} */
+
+/* Navigation section */
+div.container{
+    /* background-color: grey; */
+    display: flex;
+    padding: 10px;
+}
+
+div.flex1{
+    flex: 3;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+div.flex2 {
+    flex: 2;
+}
+nav.container{
+    display: flex;
+    align-content:space-between;
+}
+a.header-links{
+    text-decoration: none;
+    flex: 1;
+    font-size: 18px;
+    font-weight:200;
+    color: #E5E7EB;
+}
+
+/* Hero section */
